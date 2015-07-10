@@ -1,0 +1,24 @@
+{
+    "name": "madlines/common-autolink",
+    "type": "library",
+    "description": "Class that can convert urls into anchors",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksander Ciesiolkiewicz",
+            "email": "a.ciesiolkiewicz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Madlines\\Common\\AutoLink\\": "src"
+        }
+    }
+}

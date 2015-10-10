@@ -1,7 +1,8 @@
 <?php
 
 if (!file_exists('vendor/autoload.php')) {
-    exit('Make sure to run `composer install` before running and tests');
+    echo 'Make sure to run `composer install` before running and tests';
+    exit(1);
 }
 
 require_once 'vendor/autoload.php';
